@@ -1,24 +1,24 @@
-import profilepic from './profilepic.jpg';
-import cointracker from './cointracker.jpg'
+import profilepic from './pics/profilepic.jpg';
+import cointracker from './pics//cointracker.jpg'
 import { Link as AnchorLink, animateScroll as scroll } from 'react-scroll';
-import portfoliopic from './portfoliopic.jpg'
+import portfoliopic from './pics/portfoliopic.jpg'
 import './App.css';
-import Skillcomp from './skillcomp';
-import Projectcomp from './projectcomp';
-import yourgenie from './yourgenie.jpg';
-import cinepass from './cinepass.jpg';
-import moviewikki from './moviewikki.jpg';
-import reactpic from './react.png';
-import javascript from './javascript.png';
-import mongodb from './mongodb.png';
-import sql from './sql.png'
-import nodejs from './node.png';
-import python from './python.png';
-import html from './html.png';
-import css from './css.png'
-import C from './C.png';
-import photoshop from './photoshop.png'
-import Contact from './Contact'
+import Skillcomp from './components/skillcomp';
+import Projectcomp from './components/projectcomp';
+import yourgenie from './pics/yourgenie.jpg';
+import cinepass from './pics/cinepass.jpg';
+import moviewikki from './pics/moviewikki.jpg';
+import reactpic from './pics/react.png';
+import javascript from './pics/javascript.png';
+import mongodb from './pics//mongodb.png';
+import sql from './pics/sql.png'
+import nodejs from './pics/node.png';
+import python from './pics/python.png';
+import html from './pics/html.png';
+import css from './pics/css.png'
+import C from './pics/C.png';
+import photoshop from './pics/photoshop.png'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -90,7 +90,7 @@ function App() {
         code='https://github.com/shafi099/TeluguCineBuzz-Static-Webpage' />
    
    <Projectcomp pic={portfoliopic} name='My Portfolio' text='React Application'
-        view='https://shafi099.github.io/TeluguCineBuzz-Static-Webpage/'
+        view='https://shafi-portfolio.netlify.app/'
         code='https://github.com/shafi099/My-Portfolio' />
    
     </div>

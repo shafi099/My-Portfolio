@@ -1,9 +1,9 @@
 import React from 'react';
-import linkedin from'./linkedin.png';
-import github from './github.png';
-import mail from './mail.png';
-import shafi_resume from './shafi_resume.pdf'
-import resume from './resume.png'
+import linkedin from'../pics/linkedin.png';
+import github from '../pics/github.png';
+import mail from '../pics/mail.png';
+import shafi_resume from '../shafi_resume.pdf'
+import resume from '../pics/resume.png'
 const Contact = () => {
   return (
     <>
