@@ -1,0 +1,130 @@
+@font-face {
+  font-family: juliet;
+  src: url(Julietta-Messie.otf);
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url(Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: SFround;
+  src: url(SFrounded.ttf);
+}
+@font-face {
+  font-family: gilroybold;
+  src: url(gilroybold.ttf);
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* background-image: linear-gradient(to top, #0d1117, #0d1117, #0d1117, #0d1117, #0d1117, #0e1117, #0f1217, #101217, #121317, #141416, #151516, #161616); */
+  background-image: linear-gradient(to top, #0d1117, #14171d, #1a1d24, #20222a, #262831, #2c2d37, #31333d, #373843, #3e3e4a, #454451, #4c4a59, #545060);
+
+}
+
+@media screen and (min-width: 640px) {
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 50px 50px 35px;
+    height: 27px;
+    position: fixed;
+    top: 0;
+    /* text-align: center; */
+    left: 0;
+    right: 0;
+    z-index: 999;
+    /* background-color: #545060; */
+    /* background-image: linear-gradient(to top, #0d1117, #14171d, #1a1d24, #20222a, #262831, #2c2d37, #31333d, #373843, #3e3e4a, #454451, #4c4a59, #545060); */
+  }
+
+  .name {
+    font-family: juliet;
+    color: #ddd;
+    font-size: 40px;
+  }
+
+  .navlinks {
+    font-family: gilroy;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    font-size: 20px;
+    padding-right: 10%;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1%;
+    margin-top: 250px;;
+  }
+  .abouttext{
+    font-family: SFround;
+    color:#ddddddae;
+    font-size: 20px;
+    display: flex;
+    /* margin-top: 20px; */
+    flex-direction:column ;
+    gap:3%;
+  }
+  .aboutname{
+    font-family: gilroybold;
+    font-weight: bolder;
+    font-size: 66px;
+    color: #ffffff;
+    /* text-shadow: #a19e9e; */
+    text-shadow: 4px 4px 0px #767474;
+  }
+
+.aboutsum{
+  margin-top: 10px;;
+}
+  .profilepicportion img {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0px #ffffff37,-2px -2px 0px #ffffff; 
+   }
+
+   .introbox{
+    display: flex;
+    flex-direction: column;
+    margin:40% 10% 25% 10%;
+   }
+   .introtitle{
+    font-family: gilroybold;
+    font-weight: bolder;
+    font-size: 58px;
+    color: #ffffff;
+    /* text-shadow: #a19e9e; */
+    text-shadow: 2px 2px 0px #767474;
+    text-decoration: underline;
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: blue; */
+    margin-bottom: 10px;
+   }
+   .introtext{
+    font-family: SFround;
+    color:#ddddddae;
+    font-size: 28px;
+    display: flex;
+    /* margin-top: 20px; */
+    flex-direction:column ;
+    gap:3%;
+   }
+}
+
+@media screen and (max-device-width: 640px) {}
