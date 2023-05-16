@@ -267,7 +267,7 @@ color:white;
   .projectcontainer{
     display: flex;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 4%;
     justify-content: center;
   }
   .skillbox{

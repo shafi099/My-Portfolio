@@ -1,8 +1,7 @@
 import profilepic from './profilepic.jpg';
 import cointracker from './cointracker.jpg'
 import { Link as AnchorLink, animateScroll as scroll } from 'react-scroll';
-
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
+import portfoliopic from './portfoliopic.jpg'
 import './App.css';
 import Skillcomp from './skillcomp';
 import Projectcomp from './projectcomp';
@@ -89,6 +88,11 @@ function App() {
       <Projectcomp pic={moviewikki} name='MovieWikki' text='Static Webpage'
         view='https://shafi099.github.io/TeluguCineBuzz-Static-Webpage/'
         code='https://github.com/shafi099/TeluguCineBuzz-Static-Webpage' />
+   
+   <Projectcomp pic={portfoliopic} name='My Portfolio' text='React Application'
+        view='https://shafi099.github.io/TeluguCineBuzz-Static-Webpage/'
+        code='https://github.com/shafi099/My-Portfolio' />
+   
     </div>
     </div>
 
