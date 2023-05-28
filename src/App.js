@@ -19,6 +19,7 @@ import css from './pics/css.png'
 import C from './pics/C.png';
 import photoshop from './pics/photoshop.png'
 import Contact from './components/Contact'
+import wordsprint from './pics/wordsprint.jpg'
 
 
 function App() {
@@ -72,8 +73,12 @@ function App() {
       <span className='introtitle'>Projects</span>
       <span className='introtext'>Check out some of my work right here</span>
     <div className='projectcontainer'>
+    <Projectcomp pic={wordsprint} name='React Application' text='Speed Typing Practice'
+        view='https://word-sprint.netlify.app/'
+        code='https://github.com/shafi099/Touch-Typing-Practice-Application' />
+
       <Projectcomp pic={cointracker} name='MERN Application' text='Personal Finance Tracker'
-        view='https://6460732173abc744bd5ce451--tubular-starship-f4c8df.netlify.app/'
+        view='https://moneytracker-mern.netlify.app/'
         code='https://github.com/shafi099/MoneyTracker' />
 
       <Projectcomp pic={yourgenie} name='React Application' text='E-Commerce Website'
